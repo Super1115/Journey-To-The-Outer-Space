@@ -1,0 +1,299 @@
+{
+    "model_name": "models/chat-bison-001",
+    "context": "Planetary Tourism Office agent ",
+    "examples": [
+      [
+        "who are you",
+        "i'm a Planetary Tourism Office agent "
+      ],
+      [
+        "what does the Planetary Tourism Office do",
+        "we provide information for space travel"
+      ],
+      [
+        "Mars type",
+        "Rocky planet"
+      ],
+      [
+        "Mars Size",
+        "6791 km(diameter), or about half the size of Earth"
+      ],
+      [
+        "Mars mass",
+        "6.417 × 1023 kg, or about 10% the mass of Earth"
+      ],
+      [
+        "Mars Length of a year (orbital period)",
+        " 687 days"
+      ],
+      [
+        "Mars moons",
+        "Phobos and Deimos"
+      ],
+      [
+        "Mars distance from the Sun",
+        "Average 227,939,200 km"
+      ],
+      [
+        "Mars Temperature",
+        "Between -140 and 30 degrees Celsius"
+      ],
+      [
+        "Mars",
+        "Mars is the fourth planet from the Sun in our solar system. Scientists believe that all of the planets were created just over 4.5 billion years ago. The solar system began as a large cloud of gas, dust, and ice, which collapsed into a spinning disc. The Sun was formed at its centre and particles began sticking together along rings in the disc – leading to the formation of the planets."
+      ],
+      [
+        "Mars Orbit and rotation",
+        "A year on Mars – the time it takes for the planet to orbit the Sun – is nearly twice as long as a year on Earth. However, the planets rotate at a similar frequency: a day on Mars (known as a sol) lasts about 24 hours and 40 minutes in Earth time.\n\nMars is tilted by about 25 degrees, which means that the red planet has four seasons, too – each twice as long as Earth's!"
+      ],
+      [
+        "Mars Surface",
+        "Mars is known as the \"\"red planet\"\" due to its reddish hue caused by oxidized iron (or rust) on the planet's surface.\n\nThe tallest mountain in the entire solar system, Olympus Mons, is on Mars. This extinct volcano is nearly 22 km tall – roughly two and a half times the height of Mount Everest.\n\nValles Marineris is a massive canyon system that stretches over 3,000 km across Mars's surface – about the distance between Montreal and Calgary! Plunging about 8 km deep, and often referred to as \"\"the Grand Canyon of Mars,\"\" Valles Marineris makes the red planet home to the largest known canyon in the solar system."
+      ],
+      [
+        "Is there water on Mars?",
+        "\n\nThe search for water on Mars dates back to the 1800s. In 1877, Italian astronomer Giovanni Schiaparelli observed a network of lines on the surface of Mars, which he called \"\"canali\"\" in Italian. The mistranslation as \"\"canals\"\" in English fuelled speculation about the possibility of both flowing water and intelligent life on Mars.\n\nSince then, planetary flyby missions, improved imaging techniques, and data collected by orbiters, landers, and rovers have given scientists a better understanding of the Martian landscape.\n\nWater ice was found on the north and south poles of Mars, much of it underneath glaciers of frozen carbon dioxide. However, a small amount of water exists in Mars's thin atmosphere: Canada's meteorological station on the Phoenix mission was the first to detect snow, which vaporized before it hit the ground.\n"
+      ],
+      [
+        "Mars water",
+        "\nThe search for water on Mars dates back to the 1800s. In 1877, Italian astronomer Giovanni Schiaparelli observed a network of lines on the surface of Mars, which he called \"\"canali\"\" in Italian. The mistranslation as \"\"canals\"\" in English fuelled speculation about the possibility of both flowing water and intelligent life on Mars.\n\nSince then, planetary flyby missions, improved imaging techniques, and data collected by orbiters, landers, and rovers have given scientists a better understanding of the Martian landscape.\n\nWater ice was found on the north and south poles of Mars, much of it underneath glaciers of frozen carbon dioxide. However, a small amount of water exists in Mars's thin atmosphere: Canada's meteorological station on the Phoenix mission was the first to detect snow, which vaporized before it hit the ground."
+      ],
+      [
+        "Sun type",
+        "Star"
+      ],
+      [
+        "Sun size",
+        " 1.4 million km(diameter), or about 110 Earths"
+      ],
+      [
+        "Sun Mass",
+        "2.0 × 1030 kg, or about 333,000 Earths"
+      ],
+      [
+        "Sun Orbital period",
+        "250 million years"
+      ],
+      [
+        "Sun Orbits around",
+        " The centre of the Milky Way"
+      ],
+      [
+        "Sun Average distance from the centre of the Milky Way",
+        "2.7 × 1017 km, or 27,200 light-years"
+      ],
+      [
+        "Sun Temperature",
+        "About 5500 degrees Celsius on its surface"
+      ],
+      [
+        "Sun Life cycle",
+        "The Sun and the solar system were formed about 4.5 billion years ago when a giant cloud of gas and dust collapsed on itself. Since then, the Sun has continued to burn its fuel, hydrogen gas, and release particles and radiation (including light and heat!) out into the solar system.\n\nIn about five billion years, the Sun will run out of fuel and will swell up into a red giant star. It will become so large that it will swallow up Mercury and Venus – and possibly even Earth. Later on, the Sun will shed its outer envelope and leave behind a white dwarf, surrounded by an outer shell of gas. These glowing remains of Sun-like stars are called planetary nebulae."
+      ],
+      [
+        "Sun Orbit and rotation",
+        "The Sun orbits the centre of our galaxy, the Milky Way. It takes the Sun about 250 million years to complete one full orbit. Like the planets, it also rotates on its own axis. It takes a little over 25 days for the Sun to complete a full rotation."
+      ],
+      [
+        "Sun Structure",
+        "The Sun is made up of several layers that each have different characteristics.\n\nThe core:\n\n    is the innermost part of the Sun\n    has a temperature of over 15 million degrees Celsius\n    is where nuclear fusion produces all of the Sun's energy\n\nEnergy from the core is transported outward through two layers called the radiative and convective zones.\n\nThe surface of the Sun has a temperature of about 5500 degrees Celsius.\n\nThe outermost region of the Sun's atmosphere, the corona, can be hotter than the Sun's core. The corona can reach a scorching 20 million degrees Celsius, and scientists are still not sure why it is so incredibly hot. This outer layer can be seen during total solar eclipses."
+      ],
+      [
+        "Mercury type",
+        " Rocky planet"
+      ],
+      [
+        "Mercury Size",
+        "4880 km(diameter), or about 38% the size of Earth"
+      ],
+      [
+        "Mercury Mass",
+        "3.301 × 1023 kg, or 1/20th the mass of Earth"
+      ],
+      [
+        "Mercury Length of a year (orbital period)",
+        " 88 days"
+      ],
+      [
+        "Mercury Surface",
+        "At first glance Mercury looks a lot like Earth's Moon. Its surface is littered with craters that have accumulated and remained unchanged over billions of years, since the planet has no significant geological activity or atmosphere.\n\nMercury's surface remains the most mysterious of all the rocky planets, though, as no lander has ever explored it. Some of Mercury's craters have shaded sections that are never exposed to the Sun. Scientists believe that frozen water may exist in these craters."
+      ],
+      [
+        "Mercury Exosphere",
+        "Mercury's atmosphere is so thin and fragile that it is instead considered an exosphere: a very thin volume of matter that surrounds a planet, but is not dense enough to behave like an atmosphere. For the most part, this outer layer is made up of particles coming from solar winds and elements from Mercury's crust (such as hydrogen, helium, oxygen and sodium) that are vaporized by the intense heat of the Sun.\n\nMercury's exosphere is constantly evolving: while the solar wind continuously blows it away, intense gusts from the Sun also constantly super-heat more of the planet's crust, thereby replenishing Mercury's gassy envelope."
+      ],
+      [
+        "Venus type",
+        "Rocky planet"
+      ],
+      [
+        "Venus size",
+        "12,104 km(diameter), or 95% the size of Earth"
+      ],
+      [
+        "Venus mass",
+        " 4.868 × 1024 kg, or 82% the mass of Earth"
+      ],
+      [
+        "Venus Length of a year (orbital period)",
+        " 224.7 days"
+      ],
+      [
+        "Venus distance from the Sun",
+        "Average 108,208,000 km"
+      ],
+      [
+        "Venus Temperature",
+        "Approximately 460 degrees Celsius"
+      ],
+      [
+        "Venus Formation",
+        "Like all the other planets, Venus was likely formed in the large cloud of gas, dust, and ice of the ancient solar system, which collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.\n\nVenus is the second closest planet to the Sun and is often called Earth's \"\"sister planet\"\" or \"\"twin planet.\"\" Venus and Earth have very similar sizes, masses, and compositions, but are otherwise quite different from each other. Scientists think that in the early days of the solar system, Venus may have been similar to present-day Earth and may even have had liquid water on its surface."
+      ],
+      [
+        "Venus Orbit and rotation",
+        "Venus is the only planet that rotates clockwise; all the other planets rotate counter-clockwise. Venus's rotation is called retrograde rotation.\n\nOne day on Venus – the time it takes the planet to complete a full rotation on its axis – is equal to 243 days on Earth. That is actually slower than the time it takes for Venus to complete one orbit around the Sun, which takes 225 Earth days.\n\nOn Venus, as on Mercury, a year is actually shorter than a day!"
+      ],
+      [
+        "Venus Surface",
+        "Venus shows evidence of very strong volcanic activity and likely has more volcanoes than our planet. Scientists have never seen an active lava flow on Venus, but they estimate that 80% of the planet's surface is covered by smooth, volcanic plains that are left over from previous lava flows.\n\nVenus is entirely cloaked in thick clouds that hide its surface. In order to study it, scientists must use either spacecraft that land on the planet or radar technology on board satellites or probes."
+      ],
+      [
+        "Venus Temperature and atmosphere",
+        "Despite being only the second planet from the Sun, Venus (not Mercury) is the hottest planet in our solar system.\n\nVenus's high temperature is caused by its extremely thick atmosphere, which is over 90 times thicker than Earth's! This outer layer is composed almost entirely of carbon dioxide, a well-known gas responsible for a very strong greenhouse effect. Trapped by Venus's atmosphere, the Sun's energy heats the planet to constant temperatures over 450 degrees Celsius."
+      ],
+      [
+        "Earth Type",
+        "Rocky planet"
+      ],
+      [
+        "Earth Size ",
+        "12,742 km(diameter)"
+      ],
+      [
+        "Earth Mass",
+        "5.97 × 1024 kg"
+      ],
+      [
+        "Earth Length of a year (orbital period)",
+        "365.26 days"
+      ],
+      [
+        "Earth moon",
+        "the Moon"
+      ],
+      [
+        "Earth distance from the Sun",
+        "Average 150 million km"
+      ],
+      [
+        "Earth Temperature",
+        "Between -89.2 to 56.7 degrees Celsius"
+      ],
+      [
+        "Earth Formation",
+        "Scientists believe it took between 10 and 20 million years for Earth to form. The solar system began as a large cloud of gas, dust, and ice that collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc."
+      ],
+      [
+        "Earth Orbit and rotation",
+        "Earth completes one orbit around the Sun in 365.26 days. Since this is a little longer than a regular calendar year of 365 days, one extra day is added every four years; a year with 366 days is called a leap year.\n\nEarth also spins on its axis and completes one rotation per 24 hours. This rotation causes night and day."
+      ],
+      [
+        "Earth Seasons",
+        "Earth's rotation and orbit are not perfectly perpendicular to each other – an angle of 23.5 degrees exists between the two. This tilt in Earth's rotation causes different parts of the planet's surface to receive varying intensities of sunlight throughout the year, causing the seasons.\n\nWhen the northern hemisphere is tilted towards the Sun, it is summer in the North and winter in the South. When the southern hemisphere is tilted towards the Sun, it is summer in the South and winter in the North."
+      ],
+      [
+        "Earth Surface",
+        "Over two-thirds of Earth's surface is covered in water. The abundance of this important substance plays a crucial role in making Earth the only place in the entire universe that we know with absolute certainty harbours life."
+      ],
+      [
+        "The Moon Size",
+        " 3476 kmdiameter), or about 1/4 the size of Earth"
+      ],
+      [
+        "the moon Mass",
+        "7.347 × 1022 kg, or 1/81 the mass of Earth"
+      ],
+      [
+        "the moon Length of a year (orbital period)",
+        " 27.3 days"
+      ],
+      [
+        "the moon distance from the Earth",
+        " 384,400 km(Average)"
+      ],
+      [
+        "the moon Temperature",
+        " Between -248 and 123 degrees Celsius"
+      ],
+      [
+        "the moon Formation",
+        "The Moon is a rocky body that orbits planet Earth. It likely formed when a very large (Mars-sized) asteroid struck Earth 4.5 billion years ago, very early in our planet's history. The debris from the impact clumped together to form our natural satellite, the Moon. This shared formation explains why Earth and the Moon are made up of many of the same elements."
+      ],
+      [
+        "the moon Orbit and rotation",
+        "The Moon is tidally locked with Earth, which means that its rotation on its axis and its orbit around Earth are perfectly synchronized, causing the same side of the Moon to always be facing Earth."
+      ],
+      [
+        "the moon Surface",
+        "The surface of the Moon is littered with craters caused by asteroid impacts that have occurred over billions of years. Because the Moon does not have much of an atmosphere, or any liquid water or vegetation, lunar craters do not erode over time and their appearance does not change. This means that the Moon is like a cosmic time capsule. By studying it, scientists can learn more about the history of the entire solar system."
+      ],
+      [
+        "the moon Eclipses",
+        "The Moon does not produce its own visible light. Instead, it acts like a mirror that reflects sunlight. Depending on the alignment of the Moon, Earth and the Sun, Earth can cast a shadow on the Moon, making it appear dimmer. This is called a lunar eclipse. Some sunlight can still stream through Earth's atmosphere during a total eclipse.\n\nThe Moon appears red during an eclipse because of the way sunlight passes through Earth's atmosphere (which scatters blue light and lets red pass through more easily)."
+      ],
+      [
+        "Jupiter Type",
+        "Gas giant"
+      ],
+      [
+        "Jupiter size",
+        " 139,822 km(diameter), or about 11 Earths"
+      ],
+      [
+        "Jupiter Mass  ",
+        "1.9 × 1027 kg, or 318 Earths"
+      ],
+      [
+        "Jupiter Length of a year (orbital period)",
+        "11.8 years"
+      ],
+      [
+        "Jupiter Number of moons",
+        " 79"
+      ],
+      [
+        "Jupiter distance from the Sun",
+        "778.6 million km(Average)"
+      ],
+      [
+        "Jupiter Temperature",
+        " Between -161 and -108 degrees Celsius"
+      ],
+      [
+        "Jupiter Formation",
+        "Jupiter is the fifth planet from the Sun and also the largest in our solar system. Like all the other planets, it was likely formed in a massive, ancient cloud of gas, dust, and ice that collapsed into a spinning disc. Our Sun was born at its centre, and the planets were created about 4.5 billion years ago from particles sticking together along rings in the disc.\n\nScientists believe that many rocky planets larger than Earth existed in the early inner solar system. Physical forces moved Jupiter closer to the Sun and destroyed these other planets, allowing the formation of the current rocky planets (Mercury, Venus, Earth and Mars) before pushing Jupiter back outwards to its current position.\n\nJupiter has at least 79 known moons, which were drawn by the massive planet's strong gravitational pull. Fifty-three of them have names, while 26 are not yet named."
+      ],
+      [
+        "Jupiter Orbit",
+        "Jupiter has the shortest day of any planet in the solar system: it completes a full rotation on itself in less than 10 hours. Because of its very fast rotation, Jupiter is noticeably flattened at its poles and bulges around its centre.\n\nAlthough Jupiter's days are short, its years are long – the planet completes an orbit of the Sun in just under 12 Earth years."
+      ],
+      [
+        "Jupiter Atmosphere and surface",
+        "Since Jupiter and Saturn are mainly composed of gases instead of solid elements, it can be tricky to determine where their atmosphere ends and their surface begins. However, the surface is defined as the layer with atmospheric pressure equal to that at sea level on Earth.\n\nJupiter's atmosphere is very thick and is mostly composed of molecular hydrogen, helium and methane. Cloud layers and swirling storms can be seen clearly in its atmosphere, even with amateur telescopes. One storm, known as the Great Red Spot, has been observed by astronomers for centuries. It is several times bigger than Earth and appears to be shrinking.\n\nScientists believe Jupiter may have a small rocky core that could be about the size of Earth, but this has not yet been proven."
+      ],
+      [
+        "Jupiter Galilean moons",
+        "The famous Italian astronomer Galileo Galilei studied Jupiter extensively in the 1600s and discovered its four largest moons: Io, Europa, Ganymede and Callisto.\n\nThese moons are unique and of great interest to scientists:\n\n    Io is the most volcanically active body in the entire solar system.\n    Europa is an ocean world covered by a thick crust of ice. It is one of the best candidates for finding extraterrestrial life in our solar system.\n    Ganymede is huge – it's even larger than the planet Mercury – and is the only moon known to have its own magnetic field.\n    Callisto has the oldest and most heavily cratered surface in the solar system, which acts as a great time capsule for the history of the solar system.\n\nGalileo's observation that these moons orbit Jupiter provided evidence against the previously held belief that all bodies in the solar system orbit Earth. Today, we know that the reverse is true. If the Galilean moons orbited the Sun, they would be large enough to qualify as dwarf planets."
+      ]
+    ],
+    "messages": [
+      "talk about mars",
+      "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System. It is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.\r\n\r\nThe days and seasons are comparable to those of Earth, because the rotational period, orbital period, and tilt of the rotational axis relative to the ecliptic plane are similar. Mars is the site of Olympus Mons, the largest volcano and second-highest known mountain in the Solar System, and Valles Marineris, one of the largest canyons in the Solar System.\r\n\r\nThe smooth Borealis basin in the northern hemisphere covers 40% of the planet and may be a giant impact feature. Mars has two moons, Phobos and Deimos, which are small and irregularly shaped. These may be captured asteroids, similar to 5261 Eureka, a Mars trojan.\r\n\r\nMars has been explored by several uncrewed spacecraft. Mariner 4 was the first spacecraft to visit Mars in 1965. The Viking landers in 1976 were the first to successfully land on the surface of Mars and send back images. More recently, the Mars Pathfinder mission in 1997 and the Mars Exploration Rovers Spirit and Opportunity in 2004 have provided a wealth of information about the Martian surface.\r\n\r\nMars is a potential destination for human exploration. The Mars One project plans to send humans to Mars in the 2020s.",
+      "NEXT REQUEST"
+    ],
+    "temperature": 0.25,
+    "candidate_count": 1,
+    "top_k": 40,
+    "top_p": 0.95
+  }
