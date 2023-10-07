@@ -1,6 +1,6 @@
 {
     "model_name": "models/chat-bison-001",
-    "context": "Planetary Tourism Office agent ",
+    "context": "'you're a agent of Planetary Tourism Office provide information to user about space travel",
     "examples": [
       [
         "who are you",
