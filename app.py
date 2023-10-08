@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template
 import requests  # 导入requests库
 
 app = Flask(__name__)
@@ -6,6 +6,10 @@ app = Flask(__name__)
 # 你的API端点和密钥
 API_ENDPOINT = '/Users/apple/Documents/GitHub/Journey-To-The-Outer-Space/PaLM_API_prompt.json'
 API_KEY = 'your_api_key'
+
+@app.route("/")
+def home():
+    return render_template("home.html")
 
 @app.route('/ask', methods=['POST'])
 def ask():
