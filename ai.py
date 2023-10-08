@@ -8,7 +8,7 @@ import pprint
 import os
 import json
 
-hiddenFile = open('hidden.json')
+hiddenFile = open('./json/hidden.json')
 hiddenData = json.load(hiddenFile)
 palm.configure(api_key=hiddenData["PaLMAPIKey"])
 
