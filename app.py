@@ -14,6 +14,8 @@ def get_response():
     response = get_ai_response(user_input)  # Assume you have this function defined
     return response
 
+
+
 hiddenFile = open('hidden.json')
 hiddenData = json.load(hiddenFile)
 PALM_API_KEY = hiddenData["PaLMAPIKey"]
