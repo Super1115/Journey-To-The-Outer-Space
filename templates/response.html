@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Response</title>
+    <!-- Include any other metadata, stylesheets, or scripts here -->
+</head>
+<body>
+    <header>
+        <!-- You can include a header here if you have one -->
+    </header>
+    
+    <main>
+        <!-- Display the AI Response -->
+        <section id="ai-response">
+            <h1>AI Response</h1>
+            
+            <div class="response-content">
+                <p>{{ response }}</p> <!-- This is where the AI response will be injected into the page -->
+            </div>
+        </section>
+        
+        <!-- Optionally, include a form for the user to submit another request -->
+        <section id="user-input">
+            <h2>Ask Another Question</h2>
+            
+            <form action="/get_response" method="POST">
+                <label for="user_input">Your Question:</label>
+                <input type="text" name="user_input" id="user_input" required>
+                <button type="submit">Ask</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <!-- You can include a footer here if you have one -->
+    </footer>
+</body>
+</html>

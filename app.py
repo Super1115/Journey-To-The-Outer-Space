@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request, Response
 import json
+import ai
 
 app = Flask(__name__)
 
@@ -15,14 +16,11 @@ def home():
     return render_template('home.html')
 
 
-@app.route('/ask', methods=['POST'])
-def ask():
-    print(request.form)  # Log the incoming request data
-    user_message = request.form['user_message'].lower()
-    bot_response = "This is a test response."
-    print(bot_response)  # Log the response before sending it back
-    response_json = json.dumps({'bot_response': bot_response})
-    return Response(response_json, content_type='json/PaLM_API_prompt.json')
+@app.route('/get_response', methods=['POST'])  # 假设你使用 POST 方法发送数据
+def get_response():
+    user_input = request.form['user_input']  # 从表单中获取用户输入
+    response = ai.get_ai_response(user_input)  # 从 ai_module 获取响应
+    return render_template('response.html', response=response)  # 渲染响应
 
 
 if __name__ == '__main__':
