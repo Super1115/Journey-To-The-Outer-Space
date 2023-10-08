@@ -12,7 +12,7 @@ with open('/Users/apple/Documents/GitHub/Journey-To-The-Outer-Space/json/PaLM_AP
 
 @app.route('/')
 def home():
-    return render_template('mainPage.html')
+    return render_template('home.html')
 
 
 @app.route('/ask', methods=['POST'])

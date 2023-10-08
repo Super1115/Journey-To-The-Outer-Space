@@ -1,6 +1,4 @@
-body {
-    background-color: #f0f0f0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;300&display=swap');
 
 header {
     background-color: #343a40;
@@ -10,9 +8,16 @@ header {
 }
 
 .image-container {
-    position: relative;
-    text-align: center;
+    background-image: url('../images/iss040e080833~orig.jpg');
+    background-size: cover;
+    background-position: center center;
+    font-family: sans-serif;
+    background-attachment: fixed;
+    background-color: #e1af09;
+    height: 100vh;
+    opacity: 0.8;
 }
+
 .image {
     width: 100%;
     opacity: 0.5;
@@ -57,4 +62,22 @@ header {
     padding: 10px;
     margin: 5px;
     border-radius: 5px;
+}
+
+#inputBox{
+    width: 90vw;
+    height: 50px;
+    font-family: 'Martian Mono', monospace;
+    font-size:25px;
+    color: #ffffff;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    background-color: transparent;
+}
+.logo{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 80x;
+    width: 240px;
 }
