@@ -13,6 +13,8 @@
             const userInput = document.getElementById('user-input');
             const userMessage = userInput.value;
             userInput.value = '';
+            console.log("User message:", userMessage); // logging user message to console
+            appendMessage('You', userMessage);
 
             fetch('/ask', {
                 method: 'POST',
@@ -66,10 +68,6 @@
         </div>
     </div>
 
-    <div class="centered-button">
-        <a href="{{ url_for('introduction') }}" class="btn-primary">Introduction</a>
-        <a href="{{ url_for('plan_choose') }}" class="btn-primary">Plan Choose</a>
-    </div>
 
 
     
