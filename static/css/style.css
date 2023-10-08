@@ -1,0 +1,60 @@
+body {
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+}
+.image {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.dialog_box-text {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #000;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.centered-button {
+    text-align: center;
+    padding: 20px;
+}
+
+.centered-button a {
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #ff2600;
+}
+
+.btn-primary:hover {
+    background-color: #7a9bfe;
+}
+
+.bot-message {
+    background-color: #e0e0e0;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
