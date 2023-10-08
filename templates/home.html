@@ -12,8 +12,6 @@
         const userMessage = userInput.value;
         userInput.value = '';
         appendMessage('You', userMessage);
-
-
         fetch('/ask', {
             method: 'POST',
             headers: {
@@ -53,11 +51,11 @@
 <body>
   <div class="image-container">
       <h1 style="font-family: 'Martian Mono', monospace;color: #fff;font-size: 100px; ">Travel To Outer Space</h1>
-      <h2" style="font-family: 'Martian Mono', monospace;color: #abffeb;font-size: 50px;" >with Planetary Tourism Office</h2>
+      <h2" style="font-family: 'Martian Mono', monospace;color: #808080;font-size: 50px;" >with Planetary Tourism Office</h2>
       <br style="margin-bottom: 25px;">
       <input id="inputBox" placeholder="Tell me where would you like to go">
       <button class="btn btn-primary" onclick="sendMessage()">Send</button>
-      <img src="{{ url_for('static', filename='/images/Jouney2space.png') }}" alt="Logo" class="logo">
+      <img src="{{ url_for('static', filename='/images/journery2space  header.png') }}" alt="Logo" class="logo">
   </div>
 </body>
 </html>

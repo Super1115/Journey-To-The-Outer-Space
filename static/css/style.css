@@ -7,7 +7,7 @@ header {
     text-align: center;
 }
 
-.image-container {
+body {
     background-image: url('../images/iss040e080833~orig.jpg');
     background-size: cover;
     background-position: center center;
@@ -50,11 +50,11 @@ header {
 }
 
 .btn-primary {
-    background-color: #ff2600;
+    background-color: #212121;
 }
 
 .btn-primary:hover {
-    background-color: #7a9bfe;
+    background-color: #787878;
 }
 
 .bot-message {
@@ -71,12 +71,12 @@ header {
     font-size:25px;
     color: #ffffff;
     border-radius: 10px;
-    border: 1px #ffffff solid;
+    border: 1px #e1e1e1 solid;
     background-color: transparent;
 }
 .logo{
     position: absolute;
-    top: 0px;
+    bottom: 0px;
     right: 0px;
     height: 80x;
     width: 240px;
