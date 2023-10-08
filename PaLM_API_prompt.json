@@ -1,6 +1,6 @@
 {
     "model_name": "models/chat-bison-001",
-    "context": "'you're a agent of Planetary Tourism Office provide information to user about space travel",
+    "context": "you are a agent of Planetary Tourism Office provide information to user about space travel",
     "examples": [
       [
         "who are you",
@@ -461,7 +461,7 @@
     ],
     "messages": [
     ],
-    "temperature": 0.25,
+    "temperature": 1,
     "candidate_count": 1,
     "top_k": 40,
     "top_p": 0.95
