@@ -9,12 +9,22 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
 
     <script>
+        let chatHistory = [];
+
+        function appendMessage(who, message) {
+            const chatBox = document.getElementById('chat-box');
+            chatBox.innerHTML += `<div><b>${who}:</b> ${message}</div>`;
+            chatHistory.push({ who, message }); // Save the message to chat history
+            console.log(chatHistory); // Log chat history for debugging
+        }
+
         function sendMessage() {
             const userInput = document.getElementById('user-input');
             const userMessage = userInput.value;
             userInput.value = '';
-            console.log("User message:", userMessage); // logging user message to console
             appendMessage('You', userMessage);
+            //console.log("User message:", userMessage); // logging user message to console
+            //appendMessage('You', userMessage);
 
             fetch('/ask', {
                 method: 'POST',
