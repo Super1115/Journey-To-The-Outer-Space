@@ -12,14 +12,6 @@ API_KEY = 'your_api_key'
 def home():
     return render_template('home.html')
 
-@app.route('/introduction')
-def introduction():
-    return render_template('introduction_page2.html')
-
-@app.route('/plan_choose')
-def plan_choose():
-    return render_template('planChoose.html')
-
 
 
 @app.route('/ask', methods=['POST'])
