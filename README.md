@@ -1,6 +1,6 @@
 # Journey To The Outer Space
 
-![](https://hackmd.io/_uploads/ry39YSgZ6.png)
+![]("https://hackmd.io/_uploads/ry39YSgZ6.png")
 
 #### We created an AI-based website, where users can use our website like a normal travel agency website!
 
