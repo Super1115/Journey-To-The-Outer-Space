@@ -5,37 +5,7 @@
   <title>My Webpage</title>
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='/css/style.css') }}">
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;300&display=swap');
-    
-    body {
-      background-image: url(../static/images/iss040e080833~orig.jpg);
-      background-size: cover;
-      background-position: center center;
-      font-family: sans-serif;
-      /* background-repeat: no-repeat; */
-        background-attachment: fixed;
-        background-size: cover;
-        background-color:#e1af09;
-    }
-    #inputBox{
-        width: 90vw;
-        height: 50px;
-        font-family: 'Martian Mono', monospace;
-        font-size:25px;
-        color: #d7d7d7;
-        border-radius: 10px;
-        border: 1px #c5c5c5 solid;
-        background-color: transparent;
-    }
-    .logo{
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        height: 80x;
-        width: 240px;
-    }
-  </style>
+
     <script>
       function sendMessage() {
           const userInput = document.getElementById('user-input');
@@ -81,10 +51,12 @@
   </script>
 </head>
 <body>
-    <h1 style="font-family: 'Martian Mono', monospace;color: #fff;font-size: 100px; ">Travel To Outer Space</h1>
-    <h2" style="font-family: 'Martian Mono', monospace;color: #b5b5b5;font-size: 50px;" >with Planetary Tourism Office</h2>
-    <br style="margin-bottom: 25px;">
-    <input id="inputBox" placeholder="Tell me where would you like to go">
-    <img src="../static/image/journery2space  header.png" class="logo"/>
+  <div class="image-container">
+      <h1 style="font-family: 'Martian Mono', monospace;color: #fff;font-size: 100px; ">Travel To Outer Space</h1>
+      <h2" style="font-family: 'Martian Mono', monospace;color: #b5b5b5;font-size: 50px;" >with Planetary Tourism Office</h2>
+      <br style="margin-bottom: 25px;">
+      <input id="inputBox" placeholder="Tell me where would you like to go">
+      <img src="{{ url_for('static', filename='/images/Jouney2space.png') }}" alt="Logo" class="logo">
+  </div>
 </body>
 </html>
