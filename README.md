@@ -1,4 +1,4 @@
-# Journey To The Outer Space
+# Journey To Outer Space
 
 ![](./journery2space%20%20header.png)
 
